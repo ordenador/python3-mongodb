@@ -12,6 +12,7 @@ easy_install pymongo
 export MONGODB_HOME=/path/mongodb
 
 echo "logpath=$MONGODB_HOME/log/mongo.log" > $MONGODB_HOME/mongod.cfg
+
 echo "dbpath=$MONGODB_HOME/data" >> $MONGODB_HOME/mongod.cfg
 
 ## start server
