@@ -18,7 +18,7 @@ echo "dbpath=$MONGODB_HOME/data" >> $MONGODB_HOME/mongod.cfg
 ## start server
 $MONGODB_HOME/bin/mongod
 
-## start cliente y crear db: scrapingdb, user:s
+## start cliente y crear db: scrapingdb, user:scraping
 	MongoDB shell version: 2.4.6
 	connecting to: test
 	> show dbs
