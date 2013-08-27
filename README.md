@@ -26,7 +26,7 @@ $MONGODB_HOME/bin/mongod
 	test    0.203125GB
 	> use strapingdb
 	switched to db scrapingdb
-	> db.users.save({username:"straping"})
+	> db.users.save({username:"scraping"})
 	> db.users.find()
 	{ "_id" : ObjectId("521c1a93d8a7d65e29fa999e"), "username" : "scraping" }
 	> show dbs
